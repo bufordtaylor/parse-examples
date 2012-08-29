@@ -1,5 +1,5 @@
 //
-//  Translate.h
+//  PFFileAndQueryExample.h
 //  LanguageGame
 //
 //  Created by Buford Taylor on 4/15/12.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Translate : NSObject
+@interface PFFileAndQueryExample : NSObject
 
 +(void) checkForNewLocalizatableStringFiles;
 

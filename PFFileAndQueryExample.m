@@ -1,17 +1,17 @@
 //
-//  Translate.m
+//  PFFileAndQueryExample.m
 //  LanguageGame
 //
 //  Created by Buford Taylor on 4/15/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "Translate.h"
+#import "PFFileAndQueryExample.h"
 #import "AppDelegate.h"
 #import "NSFileManager+Tar.h"
 #import <Parse/Parse.h>
 
-@implementation Translate
+@implementation PFFileAndQueryExample
 
 +(void) checkForNewLocalizatableStringFiles {
     DLog(@"checking %@", [GameState getState].lastStringsUpdate);
